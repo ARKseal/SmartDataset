@@ -14,7 +14,6 @@ class SmartDataset(IterableDataset):
 
         if name is None:
             name = new_name()
-        print(f'SmartDataset init: name={name}')
 
         assert callable(preprocess_f)
 
